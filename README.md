@@ -1,4 +1,18 @@
 ## Hi there 👋
+h1>Hi, I'm Albert  <br/><a href="https://github.com/albe290</a>, <a href="https://www.linkedin.com/in/aalbertglenn/">Cybersecurity & Cloud Professional</a>, <a</a></h1>
+
+<h2>👨‍💻 Cybersecuirty Projects:</h2>
+
+- <b>Azure / Cloud Projects</b>
+  - [Creating a Live SOC/Honeynet in Azure]
+
+
+<h2> 🤳 Connect with me:</h2>
+
+
+
+[linkedin]: https://linkedin.com/in/aalbertglenn
+
 
 <!--
 **albe290/ALBE290** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
