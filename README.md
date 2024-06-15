@@ -4,7 +4,7 @@ h1>Hi, I'm Albert  <br/><a href="https://github.com/albe290</a>, <a href="https:
 <h2>👨‍💻 Cybersecuirty Projects:</h2>
 
 - <b>Azure / Cloud Projects</b>
-  - [Creating a Live SOC/Honeynet in Azure]
+  - [Creating a Live SOC/Honeynet in Azure] (https://github.com/albe290/Azure-SOC)
 
 
 <h2> 🤳 Connect with me:</h2>
