@@ -44,7 +44,7 @@ A supervised machine learning project to classify patients at risk for heart dis
 - 🧠 Overfitting detection
 - 🧾 Confusion matrix + specificity/sensitivity
 
-👉 [View Project Repo](https://github.com/your-username/heart-disease-prediction)
+👉 [View Project Repo](https://github.com/albe290/Heart-Disease-Prediction)
 
 ---
 
