@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Albert Glenn
 
-🎯 Transitioning into AI & Machine Learning | 💻 Lifelong Learner | 🧠 Building Real-World ML Projects
+🎯 Transitioning into AI & Machine Learning | Data Engineer | 💻 Lifelong Learner | 🧠 Building Real-World ML Projects
 
 ---
 
