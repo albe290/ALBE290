@@ -50,7 +50,7 @@ A supervised machine learning project to classify patients at risk for heart dis
 
 ## 📫 Let’s Connect
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/aalbertglenn/))
+- 💼 [LinkedIn](https://www.linkedin.com/in/aalbertglenn/)
 - 🌐 [Portfolio Website](https://yourwebsite.com) (In the works)
 - ✍🏽 [Medium Articles](https://medium.com/@AlbertGlenn))
 
