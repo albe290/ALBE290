@@ -102,11 +102,11 @@ ML component in progress:
 
 If you’re building modern data platforms focused on **performance + cost efficiency**, I’d love to collaborate.
 
---
+
 
 
 If you're building data platforms with performance and fiscal responsibility, let’s talk.
-I’m open to collaboration and full-time Data Engineering roles — especially in healthcare, sports analytics, and financial intelligence.
+I’m open to collaboration and full-time Data Engineering roles, especially in healthcare, sports analytics, and financial intelligence.
 
 
 
