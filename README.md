@@ -1,82 +1,108 @@
-# 👋 Hi, I'm Albert Glenn
+👋 Hi, I'm Albert Glenn
 
-🎯 Transitioning into **Data Engineering + AI/ML** | 🧠 System Builder | 💻 Lifelong Learner | 🚀 Building Real-World Data & ML Pipelines
+💾 Data Engineering | ⚙️ Pipeline Performance & Cost Optimization | ☁️ Cloud + Streaming | 📈 Data for Business Impact
 
----
+🚀 About Me
 
-## 🚀 About Me
+I specialize in building scalable, secure, and cost-efficient data systems that transform raw data into trusted assets for analytics, machine learning, and product innovation.
 
-I'm currently transitioning into the **Data Engineering and AI/Machine Learning** space after a strong foundation in technology and cybersecurity. I’m focused on building **end-to-end data and ML systems** that are production-ready, cloud-native, and aligned with real-world business needs in healthcare, finance, and media.
+My unique edge:
+I engineer pipelines that reduce warehouse compute + storage spend while improving performance and data availability.
 
-I’m enrolled in the **Zero to Mastery Data Engineering and AI/ML Career Paths**, and actively applying what I learn through hands-on projects.
+Currently completing the Zero to Mastery Data Engineering Career Path and applying every concept through real-world projects in healthcare and finance.
 
----
+💡 Business Impact Engineering
 
-## 🔁 Career Pivot: Data Engineering + ML Synergy
+I architect pipelines that deliver faster insights at lower cost:
 
-I'm not just learning how to train models — I’m building the infrastructure to support them:
+📉 Reduced compute/storage costs with Delta Lake optimization
+(partitioning, Z-ordering, file compaction, caching)
 
-- 🏗️ Designing secure database environments (PostgreSQL, RBAC, .env)
-- 🔁 Building real-time pipelines with **Kafka + Spark + S3**
-- 🧠 Training and deploying ML models using **TensorFlow, CatBoost, and Scikit-learn**
-- 📊 Querying with **Athena**, modeling OLAP systems, and visualizing results in **Power BI**
+⚡ Faster ETL + query performance → less runtime, fewer cluster hours
 
-My goal is to be the kind of engineer who understands the full lifecycle — from raw data ingestion to intelligent prediction.
+🔁 Reuse data efficiently via ELT + bronze/silver/gold layers
 
----
+🔐 Governance + schema enforcement → higher quality & compliance
 
-## 🛠️ Tools & Tech
+🚀 Improved analytics/ML velocity → quicker data-driven decisions
 
-**Languages:** Python, SQL  
-**Data Engineering:** PostgreSQL, Apache Kafka, Apache Spark, Airflow, S3, Glue, Athena  
-**ML/AI Frameworks:** Scikit-learn, CatBoost, TensorFlow, PyTorch  
-**Visualization:** Power BI, Matplotlib, Seaborn, Streamlit  
-**Orchestration & Deployment:** Airflow, Docker, Git, GitHub  
-**Cloud:** AWS (S3, Athena, SageMaker, Glue Catalog)
+My priority: enable teams to do more with data while spending less.
 
----
+🧱 What I Build
 
-## 📚 Current Focus
+✅ Batch + streaming data pipelines (Kafka, Spark, S3)
+✅ Data lakes with Delta format & Lakehouse architecture (Databricks + AWS)
+✅ Data modeling: OLTP + OLAP + star schemas
+✅ Secure + governed environments (RBAC, .env, IAM)
+✅ Power BI dashboards and ML-ready feature stores
+✅ Automation and CI/CD workflows
 
-- ⚙️ Building scalable, secure data platforms using S3 + Spark + SQL
-- 🧠 Training ML models with real-world data (fraud detection, healthcare, NLP)
-- 📈 Combining AI/ML + Data Engineering into unified pipelines
-- ✍🏽 Writing about my projects on Medium + publishing on GitHub and LinkedIn
-- 🧪 Practicing system design + SQL + Spark daily for job interview prep
+I bring together performance engineering + business outcomes.
 
----
+🛠️ Tech Stack
 
-## 🧪 Featured Project: Heart Disease Prediction
+Languages / Data: Python, SQL, PostgreSQL
+Data Engineering: Spark, Kafka, Airflow, Databricks, S3, Glue, Athena
+Data Modeling: Parquet/Delta Lake, ACID, Z-order, partitioning
+Analytics + ML (supporting skills): Power BI, Scikit-learn, TensorFlow, Streamlit
+DevOps: Docker, Git/GitHub, CI/CD (learning)
+Cloud Platforms: AWS (primary), Azure experience, Databricks
 
-A supervised ML pipeline predicting heart disease risk, with traditional models vs. CatBoost comparison. Includes:
+🎯 Current Focus
 
-- 🔍 Feature selection and model tuning (GridSearchCV, RandomSearchCV)
-- 📊 Evaluation metrics (F1 Score, Recall, ROC AUC)
-- 🤖 Model interpretability + cross-validation
-- 🧾 Overfitting analysis + comparison plots
+Databricks Delta Lake performance + cost optimization
 
-👉 [View Project Repo](https://github.com/albe290/Heart-Disease-Prediction)
+Spark SQL + distributed compute tuning
 
----
+Building an AWS-based Data Lake with streaming & batch ingestion
 
-## 🔐 Coming Soon: SQL Environment + Streaming Fraud Detection
+Interview prep: systems design, SQL performance, Spark
 
-- 💾 Secure PostgreSQL setup with RBAC, schema, and .env key handling  
-- 🔁 Streaming fraud detection pipeline using Kafka + Spark + S3  
-- 📈 Real-time dashboards with Athena + Power BI  
-- 🔍 ML fraud classification model with class imbalance handling
+Executing & documenting projects for portfolio + Medium articles
 
----
+📌 Featured Project: Healthcare Data Engineering Pipeline
 
-## 📫 Let’s Connect
+A production-style pipeline supporting heart disease analytics:
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/aalbertglenn/)
-- 🌐 [Portfolio Website](https://yourwebsite.com) *(Coming Soon)*
-- ✍🏽 [Medium Articles](https://medium.com/@AlbertGlenn)
+✅ Raw → Bronze → Silver → Gold architecture
 
----
+✅ S3 + Glue/Athena for governance and SQL querying
 
-_Thanks for visiting! I'm open to collaboration, mentorship, and full-time remote roles in Data Engineering, Machine Learning, or hybrid AI infrastructure._
+✅ Spark transformations + validation checks
+
+✅ Delta Lake for reduced storage + faster downstream queries
+
+✅ Power BI dashboards for physician insights
+
+👉 ML component in progress:
+https://github.com/albe290/Heart-Disease-Prediction
+
+Planned Impact: 30–40% ETL runtime reduction through Delta optimizations
+
+🔄 Coming Next: Real-Time Fraud Detection Pipeline
+
+Streaming ingestion with Kafka
+
+Spark Structured Streaming transformations
+
+Delta Lake + Z-order for optimized querying
+
+Real-time fraud alerts with dashboard monitoring
+
+Class-imbalance handling with ML model scoring
+
+Designed to show low-latency analytics with reduced compute cost
+
+📫 Connect with Me
+
+💼 LinkedIn: https://www.linkedin.com/in/aalbertglenn/
+
+✍🏽 Medium: https://medium.com/@AlbertGlenn
+
+🌐 Portfolio: Coming Soon
+
+If you're building data platforms with performance and fiscal responsibility, let’s talk.
+I’m open to collaboration and full-time Data Engineering roles — especially in healthcare, sports analytics, and financial intelligence.
 
 
 
