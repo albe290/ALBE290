@@ -8,7 +8,7 @@
 
 I build **scalable, secure, and cost-efficient** data systems that turn raw data into trusted, analytics-ready assets for dashboards, machine learning, and decision-making.
 
-**My edge:** I design pipelines that **reduce compute & storage spend** while **improving speed, reliability, and governance** — so teams can ship insights faster without burning through cloud credits.
+**My edge:** I design pipelines that **reduce compute & storage spend** while **improving speed, reliability, and governance**  so teams can ship insights faster without burning through cloud credits.
 
 I’m currently completing the **Zero to Mastery Data Engineering Career Path** and applying every concept in **real-world healthcare projects** on AWS and Databricks.
 
@@ -106,7 +106,7 @@ A focused repo documenting how I debugged a **PERMISSION_DENIED IAM error** betw
 - Captured **before/after screenshots**, error messages, and final working setup
 
 **Why it matters:**  
-Shows **real-world troubleshooting skills** around IAM, Unity Catalog, and cloud security — the kind of issues that actually block data teams in production.
+Shows **real-world troubleshooting skills** around IAM, Unity Catalog, and cloud security,  the kind of issues that actually block data teams in production.
 
 ---
 
@@ -128,7 +128,7 @@ A machine learning project focused on predicting heart disease risk using struct
   - Serve ML-ready features from Gold tables  
 
 **Why it matters:**  
-Connects **data engineering + ML** in a healthcare context — exactly where modern data teams are headed.
+Connects **data engineering + ML** in a healthcare context exactly where modern data teams are headed.
 
 ---
 
