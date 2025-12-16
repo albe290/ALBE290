@@ -1,162 +1,201 @@
 # 👋 Hi, I'm Albert Glenn
 
-💾 **Data Engineering** | ⚙️ Pipeline Performance & Cost Optimization | ☁️ Cloud + Streaming | 📈 Data for Business Impact  
+💾 **Data & AI Engineering** | ⚙️ Pipeline Performance & Cost Optimization | 🔐 Governance & Security | ☁️ Cloud Lakehouse | 📊 Data for Business Impact
 
 ---
 
 ## 🚀 About Me
 
-I build **scalable, secure, and cost-efficient** data systems that turn raw data into trusted, analytics-ready assets for dashboards, machine learning, and decision-making.
+I build **production-grade, governed data platforms** that transform raw, high-volume data into **trusted, KPI-ready datasets** for analytics, operations, and machine learning.
 
-**My edge:** I design pipelines that **reduce compute & storage spend** while **improving speed, reliability, and governance**  so teams can ship insights faster without burning through cloud credits.
+My background in **cybersecurity** shapes how I design data systems: **least privilege by default, auditable pipelines, centralized business logic, and cost-aware execution**.
 
-I’m currently completing the **Zero to Mastery Data Engineering Career Path** and applying every concept in **real-world healthcare projects** on AWS and Databricks.
+**My edge:** I design Lakehouse pipelines that **scale cleanly**, **control cloud spend**, and **prevent metric drift**, so data teams can ship insights faster *without sacrificing security or reliability*.
+
+I’m currently completing the **Zero to Mastery Data Engineering Career Path**, applying every concept directly to **real-world healthcare and public-sector projects** on **AWS and Databricks**.
 
 ---
 
-## 💡 How I Think: Business Impact Engineering
+## 🧠 How I Think: Production & Business-Impact Engineering
 
-I focus on **performance + cost optimization + governance**:
+I approach data engineering with the same mindset used in regulated, enterprise environments:
 
-- 📉 **Lower cloud costs** using Delta Lake best practices  
-  *(partitioning, Z-Ordering, file compaction, caching)*  
-- ⚡ **Faster ETL & analytics** → less runtime, fewer cluster-hours  
-- 🔁 **Medallion Architecture (Bronze/Silver/Gold)** so data can be reused safely across teams  
-- 🔐 **Schema enforcement + RBAC** for compliance and access control  
-- 🚀 **BI & ML velocity** → getting from raw data to decisions quickly
+* 📉 **Cost efficiency by design** using Delta Lake best practices
+  *(partitioning, Z-Ordering, file compaction, pre-aggregation)*
+* ⚡ **Performance-first pipelines** that minimize cluster hours and query latency
+* 🧱 **Medallion Architecture (Bronze / Silver / Gold)** for safe reuse across teams
+* 🔐 **Governance & access control** via Unity Catalog, IAM AssumeRole, and RBAC
+* 📊 **Centralized KPI logic in SQL** to eliminate BI-layer duplication and metric inconsistency
 
-> My goal: help companies **do more with data while spending less**.
+> **Goal:** help organizations **do more with data while spending less — securely and at scale**.
 
 ---
 
 ## 🧱 What I Build
 
-✅ Batch & (future) streaming pipelines (Spark, S3, Kafka)  
-✅ Data lakes / Lakehouse with **Delta Lake**  
-✅ OLTP + OLAP data modeling (star schemas, reporting models)  
-✅ Secure environments (IAM, Unity Catalog, RBAC, secrets)  
-✅ Analytics & ML-ready datasets for downstream teams  
-✅ Early-stage workflow automation & CI/CD around data projects  
+✅ Batch-first, Lakehouse-style pipelines (Spark, Delta Lake, S3)
+✅ Analytics- and ML-ready **Gold-layer datasets**
+✅ SQL-first transformation and KPI logic
+✅ Secure cloud integrations (IAM, Unity Catalog, external locations)
+✅ OLTP + OLAP-friendly data models (reporting & analytics layers)
+✅ Early-stage orchestration, monitoring, and CI/CD patterns
 
-I blend **data engineering fundamentals** with **business-first thinking**.
+I blend **data engineering fundamentals**, **cloud security**, and **business context** to build systems that hold up in production.
 
 ---
 
 ## 🧰 Tech Stack
 
-**Languages & Data**
-- Python, SQL (PostgreSQL, Databricks SQL)
+**Languages & Querying**
 
-**Data Engineering**
-- Databricks, Spark, Delta Lake  
-- AWS S3, Glue, Athena  
-- (Learning) Kafka, Airflow, Workflows/Orchestration
+* Python, SQL (Databricks SQL, PostgreSQL)
 
-**Modeling & Storage**
-- Parquet, Delta, Medallion Architecture  
-- Partitioning, Z-Order, ACID guarantees
+**Lakehouse & Data Engineering**
 
-**Analytics & ML (Support Skills)**
-- Power BI  
-- scikit-learn, TensorFlow  
-- Streamlit for lightweight apps
+* Databricks, Apache Spark, Delta Lake, Delta Live Tables (DLT)
+* AWS S3, AWS Glue, Amazon Athena
 
-**Cloud & Dev**
-- AWS (primary) + some Azure experience  
-- Docker, Git/GitHub  
+**Governance & Security**
+
+* Databricks Unity Catalog (RBAC, lineage, schema enforcement)
+* AWS IAM (STS AssumeRole, least-privilege access)
+
+**Streaming & Orchestration (Growing Focus)**
+
+* Apache Kafka
+* Apache Airflow
+
+**Analytics & ML (Supporting Skills)**
+
+* Power BI
+* scikit-learn, TensorFlow
+* Streamlit (lightweight apps & demos)
+
+**Cloud & DevOps**
+
+* AWS (primary), some Azure exposure
+* Git/GitHub, Docker
 
 ---
 
 ## 🌟 Featured Projects
 
-### 1️⃣ 🏥 ER Wait-Time Analytics (AWS + Databricks + Medallion Architecture)
+### 1️⃣ 🚨 NYC 911 Operational Performance Lakehouse (Databricks DLT)
 
-**Repo:**  
-👉 [ER-Wait-Time-Analytics-AWS-Databricks-Medallion-Architecture](https://github.com/albe290/ER-Wait-Time-Analytics-AWS-Databricks-Medallion-Architecture)
+**Repo:**
+👉 [https://github.com/albe290/nyc_911_project](https://github.com/albe290/nyc_911_project)
 
-**What it is:**  
-A **production-style Lakehouse pipeline** that analyzes Emergency Room (ER) performance across U.S. hospitals using:
+**What it is:**
+A **production-grade Databricks Lakehouse** built with **Delta Live Tables (DLT)** to process **10+ years of NYC 911 operational data (2014–present)** into trusted, KPI-ready datasets for **SLA monitoring and executive analytics**.
 
-- AWS S3 for raw + curated zones  
-- Databricks SQL + Delta Lake for Bronze → Silver → Gold  
-- Unity Catalog + IAM for secure S3 access  
-- Partitioned, analytics-ready Gold tables for:
-  - Top 20 / Bottom 20 hospitals (NY)
-  - State-level performance
-  - Condition-level quality
+**Architecture & Highlights:**
 
-**Why it matters:**  
-Gives hospital and state leaders **clear, governed, cost-optimized analytics** to improve ER throughput and patient outcomes.
+* Bronze → Silver → Gold pipelines using **DLT (SQL-first)**
+* Immutable raw ingestion with schema enforcement and data quality validation
+* Centralized KPI logic for:
 
----
+  * Incident volume trends
+  * Response-time SLAs
+  * SLA breach rates
+* Unity Catalog + AWS IAM (STS AssumeRole) for **credential-free, governed access**
+* Gold-only consumption model for BI and analytics
 
-### 2️⃣ 🔐 Healthcare Data Engineering Troubleshooting (IAM + Databricks Integration)
-
-**Repo:**  
-👉 [healthcare-data-engineering-troubleshooting](https://github.com/albe290/healthcare-data-engineering-troubleshooting)
-
-**What it is:**  
-A focused repo documenting how I debugged a **PERMISSION_DENIED IAM error** between **Databricks and AWS S3** while setting up Unity Catalog external locations.
-
-**Highlights:**
-
-- Used `DESCRIBE STORAGE CREDENTIAL` to trace which IAM role Databricks was using  
-- Fixed misconfigured **trust policies** and **external IDs** in IAM  
-- Updated S3 bucket policies for least-privilege access  
-- Captured **before/after screenshots**, error messages, and final working setup
-
-**Why it matters:**  
-Shows **real-world troubleshooting skills** around IAM, Unity Catalog, and cloud security,  the kind of issues that actually block data teams in production.
+**Why it matters:**
+Demonstrates how to build **auditable, cost-efficient, and governance-first analytics pipelines** suitable for **regulated public-sector and enterprise environments**.
 
 ---
 
-### 3️⃣ ❤️ Heart Disease Prediction (ML + Data Engineering Foundation)
+### 2️⃣ 🏥 ER Wait-Time Analytics (AWS + Databricks | Medallion Architecture)
 
-**Repo:**  
-👉 [Heart-Disease-Prediction](https://github.com/albe290/Heart-Disease-Prediction)
+**Repo:**
+👉 [https://github.com/albe290/ER-Wait-Time-Analytics-AWS-Databricks-Medallion-Architecture](https://github.com/albe290/ER-Wait-Time-Analytics-AWS-Databricks-Medallion-Architecture)
 
-**What it is:**  
-A machine learning project focused on predicting heart disease risk using structured healthcare data.
+**What it is:**
+A **Lakehouse analytics pipeline** analyzing Emergency Room performance across U.S. hospitals using:
+
+* AWS S3 for raw and curated data zones
+* Databricks SQL + Delta Lake for Bronze → Silver → Gold transformations
+* Unity Catalog + IAM for secure, governed data access
+
+**Gold-layer KPIs include:**
+
+* Top 20 / Bottom 20 hospitals (NY)
+* State-level ER performance
+* Condition-level wait-time trends
+
+**Why it matters:**
+Shows how **healthcare analytics pipelines** can be built to support **operational decision-making** while maintaining **performance, security, and cost discipline**.
+
+---
+
+### 3️⃣ 🔐 Healthcare Data Engineering Troubleshooting (IAM + Databricks)
+
+**Repo:**
+👉 [https://github.com/albe290/healthcare-data-engineering-troubleshooting](https://github.com/albe290/healthcare-data-engineering-troubleshooting)
+
+**What it is:**
+A focused troubleshooting case study documenting how I resolved a **PERMISSION_DENIED IAM issue** between **Databricks and AWS S3** when configuring Unity Catalog external locations.
+
+**Key takeaways:**
+
+* Traced active IAM roles using `DESCRIBE STORAGE CREDENTIAL`
+* Fixed trust policies and external ID mismatches
+* Corrected S3 bucket policies for least-privilege access
+* Captured before/after errors, screenshots, and final validation
+
+**Why it matters:**
+Highlights **real-world cloud security debugging skills** — the kind of issues that frequently block production data platforms.
+
+---
+
+### 4️⃣ ❤️ Heart Disease Prediction (ML + Data Engineering Foundation)
+
+**Repo:**
+👉 [https://github.com/albe290/Heart-Disease-Prediction](https://github.com/albe290/Heart-Disease-Prediction)
+
+**What it is:**
+An end-to-end machine learning project predicting heart disease risk using structured healthcare data.
 
 **Highlights:**
 
-- End-to-end ML workflow (data prep → modeling → evaluation)  
-- Models with scikit-learn / TensorFlow (in progress & iterating)  
-- Plans to integrate this into a **Lakehouse-style pipeline**:
-  - Ingest raw data into S3 / Delta  
-  - Use Databricks for feature engineering  
-  - Serve ML-ready features from Gold tables  
+* Data preparation, feature engineering, modeling, and evaluation
+* scikit-learn and TensorFlow experimentation
+* Planned evolution into a **Lakehouse-backed ML pipeline**:
 
-**Why it matters:**  
-Connects **data engineering + ML** in a healthcare context exactly where modern data teams are headed.
+  * Raw ingestion into S3 / Delta
+  * Feature engineering in Databricks
+  * Gold-layer ML-ready feature tables
+
+**Why it matters:**
+Connects **data engineering foundations with applied machine learning** — reflecting how modern data teams operate.
 
 ---
 
 ## 🎯 Current Focus
 
-- Deepening my **Databricks + Delta Lake** skills  
-- Getting sharper at **Spark SQL performance tuning**  
-- Designing reliable **AWS-based data lake architectures**  
-- Practicing **system design & SQL interview patterns**  
-- Publishing more **case studies & breakdowns** of my projects on GitHub and Medium  
+* Advanced **Databricks & Delta Lake** patterns
+* **Spark SQL performance tuning** and cost optimization
+* Secure **AWS-based Lakehouse architectures**
+* SQL & system design interview preparation
+* Publishing **architecture breakdowns and case studies** on GitHub and Medium
 
 ---
 
 ## 🔜 What’s Coming Next
 
-- A **real-time fraud or transaction-risk pipeline** (Kafka + Spark Streaming + Delta)  
-- More **Lakehouse-style healthcare & fintech projects**  
-- Stronger **dashboard and metric layers** (Power BI, Lakeview, etc.)  
-- CI/CD + orchestration around my data pipelines  
+* Real-time risk / fraud-style pipeline (Kafka + Spark Streaming + Delta)
+* More **Lakehouse-style healthcare and fintech projects**
+* Stronger **metric layers and dashboards** (Power BI, Databricks Lakeview)
+* CI/CD and orchestration around data pipelines
 
 ---
 
-## 📫 Connect with Me
+## 📫 Connect With Me
 
-- 💼 LinkedIn: [https://www.linkedin.com/in/aalbertglenn/](https://www.linkedin.com/in/aalbertglenn/)  
-- ✍🏽 Medium: [https://medium.com/@AlbertGlenn](https://medium.com/@AlbertGlenn)  
+* 💼 LinkedIn: [https://www.linkedin.com/in/aalbertglenn/](https://www.linkedin.com/in/aalbertglenn/)
+* ✍🏽 Medium: [https://medium.com/@AlbertGlenn](https://medium.com/@AlbertGlenn)
+* 💻 GitHub: [https://github.com/albe290](https://github.com/albe290)
 
-
-If you’re building **modern data platforms** and care about **performance, cost efficiency, and real business impact**, I’d love to connect and collaborate.
+If you’re building **modern, governed data platforms** and care about **performance, cost efficiency, and real business impact**, I’d love to connect and collaborate.
 
 
