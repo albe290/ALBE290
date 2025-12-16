@@ -27,7 +27,7 @@ I approach data engineering with the same mindset used in regulated, enterprise 
 * 🔐 **Governance & access control** via Unity Catalog, IAM AssumeRole, and RBAC
 * 📊 **Centralized KPI logic in SQL** to eliminate BI-layer duplication and metric inconsistency
 
-> **Goal:** help organizations **do more with data while spending less — securely and at scale**.
+> **Goal:** help organizations **do more with data while spending less securely and at scale**.
 
 ---
 
