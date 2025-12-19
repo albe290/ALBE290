@@ -144,7 +144,7 @@ A focused troubleshooting case study documenting how I resolved a **PERMISSION_D
 * Captured before/after errors, screenshots, and final validation
 
 **Why it matters:**
-Highlights **real-world cloud security debugging skills** — the kind of issues that frequently block production data platforms.
+Highlights **real-world cloud security debugging skills** the kind of issues that frequently block production data platforms.
 
 ---
 
@@ -167,7 +167,7 @@ An end-to-end machine learning project predicting heart disease risk using struc
   * Gold-layer ML-ready feature tables
 
 **Why it matters:**
-Connects **data engineering foundations with applied machine learning** — reflecting how modern data teams operate.
+Connects **data engineering foundations with applied machine learning**  reflecting how modern data teams operate.
 
 ---
 
