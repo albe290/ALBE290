@@ -1,192 +1,160 @@
-# 👋 Hi, I'm Albert Glenn
+# 👋 Hi, I’m Albert Glenn
 
-💾 **Data & AI Engineering** | ⚙️ Pipeline Performance & Cost Optimization | 🔐 Governance & Security | ☁️ Cloud Lakehouse | 📊 Data for Business Impact
+🤖 **AI Security Engineering** | 🔐 Agentic Defense & Vulnerability Automation | ☁️ Cloud & Identity Security | 📊 Data-Informed Risk Decisions
 
 ---
 
 ## 🚀 About Me
 
-I build **production-grade, governed data platforms** that transform raw, high-volume data into **trusted, KPI-ready datasets** for analytics, operations, and machine learning.
+I build **agentic security systems** that move organizations beyond dashboards, PDFs, and manual triage — toward **autonomous, API-driven security operations**.
 
-My background in **cybersecurity** shapes how I design data systems: **least privilege by default, auditable pipelines, centralized business logic, and cost-aware execution**.
+My foundation in **cybersecurity, cloud, and data engineering** allows me to design security systems that are:
 
-**My edge:** I design Lakehouse pipelines that **scale cleanly**, **control cloud spend**, and **prevent metric drift**, so data teams can ship insights faster *without sacrificing security or reliability*.
+* **Programmatic by default**
+* **Auditable and governed**
+* **Cost-aware and scalable**
+* **Designed for AI agents, not humans-in-the-loop**
 
-I’m currently completing the **Zero to Mastery Data Engineering Career Path**, applying every concept directly to **real-world healthcare and public-sector projects** on **AWS and Databricks**.
+I focus on **AI-enabled security workflows** where raw telemetry (vulnerability scans, logs, cloud signals) is **normalized, reasoned over, and acted on automatically** — reducing analyst toil and improving response speed.
+
+**My edge:** I don’t just detect risk — I design systems that **understand, prioritize, and explain risk** in ways both humans *and* machines can act on.
 
 ---
 
-## 🧠 How I Think: Production & Business-Impact Engineering
+## 🧠 How I Think: Agentic & Security-First Engineering
 
-I approach data engineering with the same mindset used in regulated, enterprise environments:
+I approach security engineering the same way modern AI systems operate:
 
-* 📉 **Cost efficiency by design** using Delta Lake best practices
-  *(partitioning, Z-Ordering, file compaction, pre-aggregation)*
-* ⚡ **Performance-first pipelines** that minimize cluster hours and query latency
-* 🧱 **Medallion Architecture (Bronze / Silver / Gold)** for safe reuse across teams
-* 🔐 **Governance & access control** via Unity Catalog, IAM AssumeRole, and RBAC
-* 📊 **Centralized KPI logic in SQL** to eliminate BI-layer duplication and metric inconsistency
+* 🔁 **Ingest everything via APIs** (no UI dependency)
+* 🧠 **Normalize signals into schemas agents can reason over**
+* 🎯 **Prioritize risk, not noise**
+* 🔐 **Enforce least privilege, identity-first access**
+* 📉 **Design for cost control and operational efficiency**
 
-> **Goal:** help organizations **do more with data while spending less securely and at scale**.
+Security should not rely on:
+
+* Manual exports
+* Static dashboards
+* One-off reports
+
+> **Goal:** Build **self-directing security systems** that continuously assess risk and recommend (or execute) action.
 
 ---
 
 ## 🧱 What I Build
 
-✅ Batch-first, Lakehouse-style pipelines (Spark, Delta Lake, S3)
-✅ Analytics- and ML-ready **Gold-layer datasets**
-✅ SQL-first transformation and KPI logic
-✅ Secure cloud integrations (IAM, Unity Catalog, external locations)
-✅ OLTP + OLAP-friendly data models (reporting & analytics layers)
-✅ Early-stage orchestration, monitoring, and CI/CD patterns
+✅ Agentic vulnerability management systems
+✅ API-driven security ingestion pipelines
+✅ JSON-first security schemas (not PDFs)
+✅ Autonomous risk prioritization logic
+✅ Identity-aware, cloud-native security workflows
+✅ AI agents that explain *why* something matters — not just *that* it exists
 
-I blend **data engineering fundamentals**, **cloud security**, and **business context** to build systems that hold up in production.
+I specialize in **bridging traditional security tools with modern AI workflows**.
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Core Tech Stack
 
-**Languages & Querying**
+### **Security & AI**
 
-* Python, SQL (Databricks SQL, PostgreSQL)
+* Agentic AI architectures
+* LLM-based reasoning over security data
+* RAG-style enrichment for findings & remediation
+* OWASP Top 10 (AppSec + AI Security)
 
-**Lakehouse & Data Engineering**
+### **Vulnerability & Detection**
 
-* Databricks, Apache Spark, Delta Lake, Delta Live Tables (DLT)
-* AWS S3, AWS Glue, Amazon Athena
+* Tenable Vulnerability Management (API-first)
+* Authenticated & unauthenticated scanning
+* Scan normalization & risk modeling
 
-**Governance & Security**
+### **Cloud & Identity Security**
 
-* Databricks Unity Catalog (RBAC, lineage, schema enforcement)
-* AWS IAM (STS AssumeRole, least-privilege access)
+* AWS IAM (STS, AssumeRole, least privilege)
+* Azure & hybrid identity concepts
+* Secure API authentication patterns
 
-**Streaming & Orchestration (Growing Focus)**
+### **Data & Automation**
 
-* Apache Kafka
-* Apache Airflow
+* Python (primary automation language)
+* REST APIs (security telemetry ingestion)
+* JSON schema design & validation
+* SQL for risk analysis & correlation
 
-**Analytics & ML (Supporting Skills)**
+### **Supporting Tooling**
 
-* Power BI
-* scikit-learn, TensorFlow
-* Streamlit (lightweight apps & demos)
-
-**Cloud & DevOps**
-
-* AWS (primary), some Azure exposure
-* Git/GitHub, Docker
+* Git/GitHub
+* Docker (lightweight environments)
+* PowerShell (Windows security automation)
 
 ---
 
 ## 🌟 Featured Projects
 
-### 1️⃣ 🚨 NYC 911 Operational Performance Lakehouse (Databricks DLT)
+### 🤖 Agentic Vulnerability Management System (Tenable + AI)
 
 **Repo:**
-👉 [https://github.com/albe290/nyc_911_project](https://github.com/albe290/nyc_911_project)
+👉 *agentic-vulnerability-management-agent* (this repo)
 
 **What it is:**
-A **production-grade Databricks Lakehouse** built with **Delta Live Tables (DLT)** to process **10+ years of NYC 911 operational data (2014–present)** into trusted, KPI-ready datasets for **SLA monitoring and executive analytics**.
+A fully **API-driven vulnerability management pipeline** that:
 
-**Architecture & Highlights:**
+1. Pulls authenticated & unauthenticated Tenable scans
+2. Exports findings programmatically (JSON)
+3. Normalizes vulnerabilities into a structured schema
+4. Feeds them into an **AI agent** for:
 
-* Bronze → Silver → Gold pipelines using **DLT (SQL-first)**
-* Immutable raw ingestion with schema enforcement and data quality validation
-* Centralized KPI logic for:
-
-  * Incident volume trends
-  * Response-time SLAs
-  * SLA breach rates
-* Unity Catalog + AWS IAM (STS AssumeRole) for **credential-free, governed access**
-* Gold-only consumption model for BI and analytics
+   * Risk prioritization
+   * Contextual explanation
+   * Remediation guidance
 
 **Why it matters:**
-Demonstrates how to build **auditable, cost-efficient, and governance-first analytics pipelines** suitable for **regulated public-sector and enterprise environments**.
+This project demonstrates how **traditional VM tooling can be transformed into an autonomous security system**, removing reliance on dashboards and static reports.
+
+> PDFs are dead.
+> Agents decide now.
 
 ---
 
-### 2️⃣ 🏥 ER Wait-Time Analytics (AWS + Databricks | Medallion Architecture)
-
-**Repo:**
-👉 [https://github.com/albe290/ER-Wait-Time-Analytics-AWS-Databricks-Medallion-Architecture](https://github.com/albe290/ER-Wait-Time-Analytics-AWS-Databricks-Medallion-Architecture)
-
-**What it is:**
-A **Lakehouse analytics pipeline** analyzing Emergency Room performance across U.S. hospitals using:
-
-* AWS S3 for raw and curated data zones
-* Databricks SQL + Delta Lake for Bronze → Silver → Gold transformations
-* Unity Catalog + IAM for secure, governed data access
-
-**Gold-layer KPIs include:**
-
-* Top 20 / Bottom 20 hospitals (NY)
-* State-level ER performance
-* Condition-level wait-time trends
-
-**Why it matters:**
-Shows how **healthcare analytics pipelines** can be built to support **operational decision-making** while maintaining **performance, security, and cost discipline**.
-
----
-
-### 3️⃣ 🔐 Healthcare Data Engineering Troubleshooting (IAM + Databricks)
+### 🔐 Cloud & Identity Security Troubleshooting (IAM + Databricks)
 
 **Repo:**
 👉 [https://github.com/albe290/healthcare-data-engineering-troubleshooting](https://github.com/albe290/healthcare-data-engineering-troubleshooting)
 
-**What it is:**
-A focused troubleshooting case study documenting how I resolved a **PERMISSION_DENIED IAM issue** between **Databricks and AWS S3** when configuring Unity Catalog external locations.
-
-**Key takeaways:**
-
-* Traced active IAM roles using `DESCRIBE STORAGE CREDENTIAL`
-* Fixed trust policies and external ID mismatches
-* Corrected S3 bucket policies for least-privilege access
-* Captured before/after errors, screenshots, and final validation
-
-**Why it matters:**
-Highlights **real-world cloud security debugging skills** the kind of issues that frequently block production data platforms.
+**Why it still matters:**
+Identity failures are **security failures**. This project shows real-world debugging of IAM trust relationships, permissions, and misconfigurations — skills directly transferable to securing AI pipelines and cloud-native security systems.
 
 ---
 
-### 4️⃣ ❤️ Heart Disease Prediction (ML + Data Engineering Foundation)
+### ❤️ ML Foundations for Security Reasoning
 
 **Repo:**
 👉 [https://github.com/albe290/Heart-Disease-Prediction](https://github.com/albe290/Heart-Disease-Prediction)
 
-**What it is:**
-An end-to-end machine learning project predicting heart disease risk using structured healthcare data.
-
-**Highlights:**
-
-* Data preparation, feature engineering, modeling, and evaluation
-* scikit-learn and TensorFlow experimentation
-* Planned evolution into a **Lakehouse-backed ML pipeline**:
-
-  * Raw ingestion into S3 / Delta
-  * Feature engineering in Databricks
-  * Gold-layer ML-ready feature tables
-
-**Why it matters:**
-Connects **data engineering foundations with applied machine learning**  reflecting how modern data teams operate.
+**Why it’s relevant:**
+Demonstrates the ML foundations required to reason about classification, thresholds, false positives, and risk scoring — all core concepts in AI-powered security.
 
 ---
 
 ## 🎯 Current Focus
 
-* Advanced **Databricks & Delta Lake** patterns
-* **Spark SQL performance tuning** and cost optimization
-* Secure **AWS-based Lakehouse architectures**
-* SQL & system design interview preparation
-* Publishing **architecture breakdowns and case studies** on GitHub and Medium
+* Agentic AI for Security Operations
+* Vulnerability Management Automation
+* AI OWASP Top 10 mapping & mitigations
+* Secure AI pipelines & governance
+* API-first SOC & VM design
+* Publishing AI Security case studies on GitHub & LinkedIn
 
 ---
 
 ## 🔜 What’s Coming Next
 
-* Real-time risk / fraud-style pipeline (Kafka + Spark Streaming + Delta)
-* More **Lakehouse-style healthcare and fintech projects**
-* Stronger **metric layers and dashboards** (Power BI, Databricks Lakeview)
-* CI/CD and orchestration around data pipelines
+* AI SOC Analyst agent (detections + reasoning)
+* AI-powered vulnerability remediation workflows
+* Risk-based scoring models for security findings
+* Cloud-native AI security guardrails
+* More agent-first security architectures
 
 ---
 
@@ -196,6 +164,8 @@ Connects **data engineering foundations with applied machine learning**  reflect
 * ✍🏽 Medium: [https://medium.com/@AlbertGlenn](https://medium.com/@AlbertGlenn)
 * 💻 GitHub: [https://github.com/albe290](https://github.com/albe290)
 
-If you’re building **modern, governed data platforms** and care about **performance, cost efficiency, and real business impact**, I’d love to connect and collaborate.
+If you’re building **AI-driven security systems**, rethinking **SOC or vulnerability workflows**, or replacing dashboards with **autonomous agents**, I’d love to connect.
+
+
 
 
