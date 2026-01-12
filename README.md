@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 
-I build **agentic security systems** that move organizations beyond dashboards, PDFs, and manual triage — toward **autonomous, API-driven security operations**.
+I build **agentic security systems** that move organizations beyond dashboards, PDFs, and manual triage  toward **autonomous, API-driven security operations**.
 
 My foundation in **cybersecurity, cloud, and data engineering** allows me to design security systems that are:
 
@@ -17,7 +17,7 @@ My foundation in **cybersecurity, cloud, and data engineering** allows me to des
 
 I focus on **AI-enabled security workflows** where raw telemetry (vulnerability scans, logs, cloud signals) is **normalized, reasoned over, and acted on automatically** — reducing analyst toil and improving response speed.
 
-**My edge:** I don’t just detect risk — I design systems that **understand, prioritize, and explain risk** in ways both humans *and* machines can act on.
+**My edge:** I don’t just detect risk, I design systems that **understand, prioritize, and explain risk** in ways both humans *and* machines can act on.
 
 ---
 
