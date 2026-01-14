@@ -137,13 +137,23 @@ Identity failures are **security failures**. This project demonstrates real-worl
 
 ---
 
-### ❤️ ML Foundations for Security Reasoning
+### ❤️ Security-Hardened Machine Learning (OWASP AI Top 10)
 
 🔗 Repo:
-👉 [https://github.com/albe290/Heart-Disease-Prediction](https://github.com/albe290/Heart-Disease-Prediction)
+👉 https://github.com/albe290/Heart-Disease-Prediction
 
-**Why it’s relevant:**
-Provides the ML foundations required for **risk classification, thresholding, false-positive reduction, and explainability** — core concepts behind AI-powered security decisions.
+**What it is:**
+A **security-hardened machine learning system** built in a healthcare context and explicitly aligned with the **OWASP AI Top 10**, demonstrating how ML models can be designed with **integrity, transparency, and governance** from the start.
+
+**What it demonstrates:**
+- A01: Training data integrity validation and poisoning safeguards
+- A03: Domain-aware input validation and adversarial input handling
+- A04: Automation bias mitigation via decision-support framing
+- A05: Model transparency using feature importance and audit-friendly metrics
+
+**Why it matters:**
+This project shows how ML systems can be treated as **security-relevant infrastructure**, not just predictive models — a foundation for AI-driven risk classification, explainability, and agent-based security decision-making.
+
 
 ---
 
