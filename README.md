@@ -32,6 +32,8 @@ I approach security engineering the same way modern AI systems operate:
 * 🎯 **Prioritize exposure and persistence, not noise**
 * 🔐 **Enforce identity-first, least-privilege access**
 * 📉 **Design for cost control and operational efficiency**
+* 🛡️ **Apply OWASP AI Top 10 controls directly to ML pipelines**
+
 
 Security should **not** rely on:
 
