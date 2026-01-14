@@ -1,23 +1,25 @@
-# 👋 Hi, I’m Albert Glenn
+# 👋 Hi, I’m **Albert Glenn**
 
-🤖 **AI Security Engineering** | 🔐 Agentic Defense & Vulnerability Automation | ☁️ Cloud & Identity Security | 📊 Data-Informed Risk Decisions
+🤖 **AI Security Engineering** | 🔐 Agentic Defense & Vulnerability Automation
+☁️ Cloud & Identity Security | 📊 Data-Informed Risk Decisions
 
 ---
 
 ## 🚀 About Me
 
-I build **agentic security systems** that move organizations beyond dashboards, PDFs, and manual triage  toward **autonomous, API-driven security operations**.
+I design and build **agentic security systems** that move organizations beyond dashboards, PDFs, and manual triage toward **autonomous, API-driven security operations**.
 
-My foundation in **cybersecurity, cloud, and data engineering** allows me to design security systems that are:
+My work focuses on **AI-enabled security workflows** where raw telemetry — vulnerability scans, logs, cloud signals  is **normalized, reasoned over, and acted on automatically**, reducing analyst toil and improving response speed.
+
+My foundation in **cybersecurity, cloud, and data engineering** allows me to build security systems that are:
 
 * **Programmatic by default**
 * **Auditable and governed**
 * **Cost-aware and scalable**
 * **Designed for AI agents, not humans-in-the-loop**
 
-I focus on **AI-enabled security workflows** where raw telemetry (vulnerability scans, logs, cloud signals) is **normalized, reasoned over, and acted on automatically** — reducing analyst toil and improving response speed.
-
-**My edge:** I don’t just detect risk, I design systems that **understand, prioritize, and explain risk** in ways both humans *and* machines can act on.
+**My edge:**
+I don’t just detect risk I design systems that **understand, prioritize, and explain risk** in ways both humans *and* machines can act on.
 
 ---
 
@@ -27,11 +29,11 @@ I approach security engineering the same way modern AI systems operate:
 
 * 🔁 **Ingest everything via APIs** (no UI dependency)
 * 🧠 **Normalize signals into schemas agents can reason over**
-* 🎯 **Prioritize risk, not noise**
-* 🔐 **Enforce least privilege, identity-first access**
+* 🎯 **Prioritize exposure and persistence, not noise**
+* 🔐 **Enforce identity-first, least-privilege access**
 * 📉 **Design for cost control and operational efficiency**
 
-Security should not rely on:
+Security should **not** rely on:
 
 * Manual exports
 * Static dashboards
@@ -43,12 +45,12 @@ Security should not rely on:
 
 ## 🧱 What I Build
 
-✅ Agentic vulnerability management systems
-✅ API-driven security ingestion pipelines
-✅ JSON-first security schemas (not PDFs)
-✅ Autonomous risk prioritization logic
-✅ Identity-aware, cloud-native security workflows
-✅ AI agents that explain *why* something matters — not just *that* it exists
+* ✅ Agentic vulnerability management platforms
+* ✅ API-driven security ingestion pipelines
+* ✅ JSON-first security schemas (not PDFs)
+* ✅ Autonomous risk prioritization logic
+* ✅ Identity-aware, cloud-native security workflows
+* ✅ AI agents that explain *why* something matters — not just *that* it exists
 
 I specialize in **bridging traditional security tools with modern AI workflows**.
 
@@ -56,35 +58,35 @@ I specialize in **bridging traditional security tools with modern AI workflows**
 
 ## 🧰 Core Tech Stack
 
-### **Security & AI**
+### 🔐 Security & AI
 
 * Agentic AI architectures
 * LLM-based reasoning over security data
 * RAG-style enrichment for findings & remediation
 * OWASP Top 10 (AppSec + AI Security)
 
-### **Vulnerability & Detection**
+### 🛡️ Vulnerability & Detection
 
 * Tenable Vulnerability Management (API-first)
 * Authenticated & unauthenticated scanning
-* Scan normalization & risk modeling
+* Scan normalization & exposure-aware risk modeling
 
-### **Cloud & Identity Security**
+### ☁️ Cloud & Identity Security
 
 * AWS IAM (STS, AssumeRole, least privilege)
 * Azure & hybrid identity concepts
 * Secure API authentication patterns
 
-### **Data & Automation**
+### 📊 Data & Automation
 
 * Python (primary automation language)
 * REST APIs (security telemetry ingestion)
 * JSON schema design & validation
 * SQL for risk analysis & correlation
 
-### **Supporting Tooling**
+### 🧩 Supporting Tooling
 
-* Git/GitHub
+* Git / GitHub
 * Docker (lightweight environments)
 * PowerShell (Windows security automation)
 
@@ -92,48 +94,56 @@ I specialize in **bridging traditional security tools with modern AI workflows**
 
 ## 🌟 Featured Projects
 
-### 🤖 Agentic Vulnerability Management System (Tenable + AI)
+### 🛡️ **Agentic Vulnerability Management System**
 
-**Repo:**
-👉 *agentic-vulnerability-management-agent* (this repo)
+**(Tenable + Exposure-Aware Risk Reasoning)**
+
+🔗 **Repo:**
+👉 [https://github.com/albe290/agentic-vulnerability-management-agent](https://github.com/albe290/agentic-vulnerability-management-agent)
 
 **What it is:**
-A fully **API-driven vulnerability management pipeline** that:
+A **production-grade, API-driven vulnerability management platform** that transforms traditional scanning into an **autonomous, exposure-aware risk reasoning system**.
 
-1. Pulls authenticated & unauthenticated Tenable scans
-2. Exports findings programmatically (JSON)
-3. Normalizes vulnerabilities into a structured schema
-4. Feeds them into an **AI agent** for:
+**What it does:**
 
-   * Risk prioritization
-   * Contextual explanation
-   * Remediation guidance
+1. Programmatically ingests **baseline, authenticated, and unauthenticated Tenable scans**
+2. Normalizes findings into **canonical asset-aware schemas**
+3. Correlates multiple scan perspectives to determine:
+
+   * External exposure
+   * Persistence across scans
+   * Misconfiguration-driven risk
+4. Applies **agentic reasoning logic** to:
+
+   * Prioritize remediation
+   * Generate executive-ready risk summaries
+   * Eliminate CVSS-only decision making
 
 **Why it matters:**
-This project demonstrates how **traditional VM tooling can be transformed into an autonomous security system**, removing reliance on dashboards and static reports.
+This project demonstrates how **traditional vulnerability tooling can be elevated into an intelligent security system** one that reasons about exposure, persistence, and business impact instead of producing static reports.
 
-> PDFs are dead.
-> Agents decide now.
+> **Dashboards are optional. PDFs are dead.
+> Agents decide now.**
 
 ---
 
 ### 🔐 Cloud & Identity Security Troubleshooting (IAM + Databricks)
 
-**Repo:**
+🔗 Repo:
 👉 [https://github.com/albe290/healthcare-data-engineering-troubleshooting](https://github.com/albe290/healthcare-data-engineering-troubleshooting)
 
-**Why it still matters:**
-Identity failures are **security failures**. This project shows real-world debugging of IAM trust relationships, permissions, and misconfigurations — skills directly transferable to securing AI pipelines and cloud-native security systems.
+**Why it matters:**
+Identity failures are **security failures**. This project demonstrates real-world troubleshooting of IAM trust relationships, permissions, and misconfigurations — skills directly transferable to **securing AI pipelines and agent-based systems**.
 
 ---
 
 ### ❤️ ML Foundations for Security Reasoning
 
-**Repo:**
+🔗 Repo:
 👉 [https://github.com/albe290/Heart-Disease-Prediction](https://github.com/albe290/Heart-Disease-Prediction)
 
 **Why it’s relevant:**
-Demonstrates the ML foundations required to reason about classification, thresholds, false positives, and risk scoring — all core concepts in AI-powered security.
+Provides the ML foundations required for **risk classification, thresholding, false-positive reduction, and explainability** — core concepts behind AI-powered security decisions.
 
 ---
 
@@ -143,7 +153,7 @@ Demonstrates the ML foundations required to reason about classification, thresho
 * Vulnerability Management Automation
 * AI OWASP Top 10 mapping & mitigations
 * Secure AI pipelines & governance
-* API-first SOC & VM design
+* API-first SOC & VM architectures
 * Publishing AI Security case studies on GitHub & LinkedIn
 
 ---
@@ -151,10 +161,10 @@ Demonstrates the ML foundations required to reason about classification, thresho
 ## 🔜 What’s Coming Next
 
 * AI SOC Analyst agent (detections + reasoning)
-* AI-powered vulnerability remediation workflows
+* AI-driven vulnerability remediation workflows
 * Risk-based scoring models for security findings
 * Cloud-native AI security guardrails
-* More agent-first security architectures
+* Additional **agent-first security architectures**
 
 ---
 
@@ -165,6 +175,10 @@ Demonstrates the ML foundations required to reason about classification, thresho
 * 💻 GitHub: [https://github.com/albe290](https://github.com/albe290)
 
 If you’re building **AI-driven security systems**, rethinking **SOC or vulnerability workflows**, or replacing dashboards with **autonomous agents**, I’d love to connect.
+
+---
+
+
 
 
 
