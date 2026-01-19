@@ -57,7 +57,7 @@ Security should **not** rely on:
 * ✅ API-driven security ingestion pipelines
 * ✅ JSON-first security & evidence schemas
 * ✅ Autonomous risk & compliance reasoning logic
-* ✅ AI agents that explain *why* something matters — not just *that* it exists
+* ✅ AI agents that explain *why* something matters not just *that* it exists
 
 I specialize in **bridging traditional security tooling with modern AI systems**.
 
