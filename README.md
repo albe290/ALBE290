@@ -1,5 +1,7 @@
 # 👋 Hi, I’m **Albert Glenn**
 
+Primary focus: Agentic GRC & Vulnerability Management Platforms for AI-Driven Security Operations
+
 🤖 **AI Security Engineering** | 🔐 Agentic Defense, GRC & Vulnerability Automation
 ☁️ Cloud & Identity Security | 📊 Data-Informed Risk Decisions
 
