@@ -25,7 +25,7 @@ My foundation in **cybersecurity, cloud, and data engineering** allows me to bui
 * **Designed for AI agents — not dashboards**
 
 **My edge:**
-I don’t just detect risk — I design systems that **understand, prioritize, and explain risk** in ways both humans *and machines* can act on.
+I don’t just detect risk I design systems that **understand, prioritize, and explain risk** in ways both humans *and machines* can act on.
 
 ---
 
