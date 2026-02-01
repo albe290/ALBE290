@@ -1,6 +1,6 @@
 # 👋 Hi, I’m **Albert Glenn**
 
-Primary focus: Agentic GRC & Vulnerability Management Platforms for AI-Driven Security Operations
+**Primary focus:** Agentic GRC & Vulnerability Management Platforms for AI-Driven Security Operations
 
 🤖 **AI Security Engineering** | 🔐 Agentic Defense, GRC & Vulnerability Automation
 ☁️ Cloud & Identity Security | 📊 Data-Informed Risk Decisions
@@ -27,7 +27,7 @@ My foundation in **cybersecurity, cloud, and data engineering** allows me to bui
 * **Designed for AI agents — not dashboards**
 
 **My edge:**
-I don’t just detect risk I design systems that **understand, prioritize, and explain risk** in ways both humans *and machines* can act on.
+I don’t just detect risk — I design systems that **understand, prioritize, and explain risk** in ways both humans *and machines* can act on.
 
 ---
 
@@ -59,7 +59,7 @@ Security should **not** rely on:
 * ✅ API-driven security ingestion pipelines
 * ✅ JSON-first security & evidence schemas
 * ✅ Autonomous risk & compliance reasoning logic
-* ✅ AI agents that explain *why* something matters not just *that* it exists
+* ✅ AI agents that explain *why* something matters — not just *that* it exists
 
 I specialize in **bridging traditional security tooling with modern AI systems**.
 
@@ -103,99 +103,71 @@ I specialize in **bridging traditional security tooling with modern AI systems**
 
 ---
 
-## 🌟 Featured Projects
+## 🧱 Project Portfolio
+
+A **curated portfolio** focused on **agentic security platforms**, **secure AI system design**, and **governance-driven automation**.
 
 ---
 
-### 🛡️ **Agentic Vulnerability Management System**
+### 🛡️ Agentic Security Platforms (Core Focus)
 
-**(Tenable + Exposure-Aware Risk Reasoning)**
+**Autonomous systems that reason about risk, governance, and security**
 
-🔗 **Repo:**
-👉 [https://github.com/albe290/agentic-vulnerability-management-agent](https://github.com/albe290/agentic-vulnerability-management-agent)
-
-**What it is:**
-A **production-grade, API-driven vulnerability management platform** that transforms traditional scanning into an **autonomous risk-reasoning system**.
-
-**What it does:**
-
-1. Ingests **baseline, authenticated, and unauthenticated Tenable scans**
-2. Normalizes findings into **canonical, asset-aware schemas**
-3. Correlates scan perspectives to determine:
-
-   * External exposure
-   * Persistence across scans
-   * Misconfiguration-driven risk
-4. Applies **agentic reasoning logic** to:
-
-   * Prioritize remediation
-   * Generate executive-ready summaries
-   * Eliminate CVSS-only decision-making
-
-**Why it matters:**
-This project shows how **traditional VM tooling becomes intelligent infrastructure** when paired with agentic reasoning.
-
-> Dashboards are optional.
-> PDFs are dead.
-> **Agents decide now.**
+* **Agentic Vulnerability Management & GRC Platform**
+  🔗 [https://github.com/albe290/agentic-vulnerability-management-grc-platform](https://github.com/albe290/agentic-vulnerability-management-grc-platform)
+  *Agent-based vulnerability ingestion, exposure-aware risk scoring, SLA enforcement, and audit-ready compliance reasoning.*
 
 ---
 
-### 🧾 **Agentic GRC & Compliance Automation Platform**
+### 🤖 Secure AI & Agent Architectures
 
-**(Evidence-Driven | Control-Mapped | Audit-Ready)**
+**Production-safe AI systems with deterministic cores and constrained LLM reasoning**
 
-🔗 **Repo:**
-👉 [https://github.com/albe290/agentic-vulnerability-management-grc-platform](https://github.com/albe290/agentic-vulnerability-management-grc-platform)
-
-**What it is:**
-An **agentic GRC platform** that treats governance, risk, and compliance as a **machine-reasoning problem**, not a spreadsheet exercise.
-
-**What it does:**
-
-* Ingests **technical security evidence** directly from systems
-* Normalizes artifacts into **structured GRC evidence schemas**
-* Maps findings to **security controls** (e.g., NIST-style logic)
-* Reasons over:
-
-  * Control effectiveness
-  * Evidence completeness
-  * Risk posture
-* Produces **audit-ready, explainable outputs**
-
-**Why it matters:**
-This replaces manual GRC workflows with **continuous, system-verified compliance**, enabling security and audit teams to reason about risk in real time.
+* **Snake – Clean Architecture AI**
+  🔗 [https://github.com/albe290/snake-clean-architecture-ai](https://github.com/albe290/snake-clean-architecture-ai)
+  *Deterministic game engine with LLM advisory agents, strict separation of concerns, and security-first validation.*
 
 ---
 
-### 🔐 **Cloud & Identity Security Troubleshooting (IAM + Databricks)**
+### 🧾 Agentic GRC & Compliance Automation
 
-🔗 **Repo:**
-👉 [https://github.com/albe290/healthcare-data-engineering-troubleshooting](https://github.com/albe290/healthcare-data-engineering-troubleshooting)
+**Evidence-driven compliance as a machine-reasoning problem**
 
-**Why it matters:**
-Identity failures are **security failures**.
-This project demonstrates real-world troubleshooting of IAM trust relationships, permissions, and misconfigurations — skills directly transferable to **securing AI pipelines and agent-based systems**.
+* **Agentic GRC Modules & Control Reasoning**
+  🔗 [https://github.com/albe290/agentic-vulnerability-management-grc-platform](https://github.com/albe290/agentic-vulnerability-management-grc-platform)
+  *Control-mapped evidence ingestion, compliance evaluation, and executive-ready audit outputs.*
 
 ---
 
-### ❤️ **Security-Hardened Machine Learning (OWASP AI Top 10)**
+### ☁️ Cloud & Identity Security Engineering
 
-🔗 **Repo:**
-👉 [https://github.com/albe290/Heart-Disease-Prediction](https://github.com/albe290/Heart-Disease-Prediction)
+**Identity-first security and real-world cloud troubleshooting**
 
-**What it is:**
-A **security-hardened ML system** built in a healthcare context and explicitly aligned to the **OWASP AI Top 10**.
+* **Cloud & IAM Security Troubleshooting**
+  🔗 [https://github.com/albe290/healthcare-data-engineering-troubleshooting](https://github.com/albe290/healthcare-data-engineering-troubleshooting)
+  *AWS IAM trust policies, permission boundaries, and production identity debugging.*
 
-**What it demonstrates:**
+---
 
-* A01 — Training data integrity & poisoning safeguards
-* A03 — Domain-aware input validation
-* A04 — Automation bias mitigation
-* A05 — Model transparency & auditability
+### ❤️ Security-Hardened Machine Learning
 
-**Why it matters:**
-This shows how ML systems can be treated as **security-critical infrastructure**, not just predictive models.
+**ML systems treated as security-critical infrastructure**
+
+* **Heart Disease Prediction (OWASP AI Top 10)**
+  🔗 [https://github.com/albe290/Heart-Disease-Prediction](https://github.com/albe290/Heart-Disease-Prediction)
+  *Security-aligned ML pipeline with AI risk controls, auditability, and healthcare constraints.*
+
+---
+
+## 🧠 How to Read These Projects
+
+* **Top sections = flagship platforms**
+* **Middle sections = architectural depth**
+* **Lower sections = supporting security systems**
+
+Every repository supports the same thesis:
+
+> **Security systems should reason, explain, and act — not just alert.**
 
 ---
 
@@ -212,7 +184,7 @@ This shows how ML systems can be treated as **security-critical infrastructure**
 
 ## 🔜 What’s Coming Next
 
-* AI SOC Analyst agent (detections + reasoning)
+* AI SOC Analyst agents (detections + reasoning)
 * AI-driven remediation orchestration
 * Risk-based scoring engines
 * Cloud-native AI security guardrails
@@ -229,7 +201,6 @@ This shows how ML systems can be treated as **security-critical infrastructure**
 If you’re building **AI-driven security systems**, modernizing **SOC, VM, or GRC workflows**, or replacing dashboards with **autonomous agents**, I’d love to connect.
 
 ---
-
 
 
 
